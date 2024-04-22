@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# But do not ignore the .gitignore and wp-content/themes/mytailwindtheme/ directory
+!.gitignore
+!/wp-content/
+/wp-content/*
+!/wp-content/themes/
+/wp-content/themes/*
+!/wp-content/themes/mytailwindtheme/
